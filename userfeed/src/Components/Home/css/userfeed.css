@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.col {
+    width: 20%;
+}
+
+.main {
+    width: 60%;
+}
+
+.width-100 {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.image-box {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.col-2 {
+    width: 33%;
+}
+
+.col-2 img {
+    width: 100%;
+    height: auto;
+}
+
+.posted-comment {
+    margin-top: 20px;
+}
+
+.feed-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 10px;
+}
